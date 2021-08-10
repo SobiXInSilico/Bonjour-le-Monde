@@ -7,4 +7,4 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 def homePageView(request):
-    return HttpResponse('Hello Sobix!')
+    return HttpResponse('<h1>Hello Sobix!</h1>')
